@@ -1,0 +1,42 @@
+.post-page {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post-header h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.add-btn {
+  background-color:#243C7B;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 12px;
+  width: 259px;
+  height: 40px;
+  gap: 8px;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  span{
+   width: 24px;
+  }
+}
+
+.add-btn:hover {
+  background-color: #1d4ed8;
+}
